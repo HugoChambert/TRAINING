@@ -22,7 +22,7 @@ export default function Contact() {
     }
 
     const res = await fetch(
-      `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-inquiry`,
+      `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-emails`,
       {
         method: 'POST',
         headers: {
