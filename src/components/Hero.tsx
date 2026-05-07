@@ -37,7 +37,7 @@ export default function Hero() {
 
         <div className="hero__ctas">
           <a
-            href="https://cal.com"
+            href="https://cal.com/hugo-chambert-lhv2ko/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
