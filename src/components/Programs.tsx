@@ -103,14 +103,15 @@ export default function Programs() {
               </ul>
 
               <a
-                href="https://buy.stripe.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`programs__cta${plan.featured ? ' programs__cta--featured' : ''}`}
-              >
-                {plan.cta}
-                <ArrowRight size={14} />
-              </a>
+            
+  href={plan.href}
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`programs__cta${plan.featured ? ' programs__cta--featured' : ''}`}
+>
+  {plan.cta}
+  <ArrowRight size={14} />
+</a>
             </div>
           ))}
         </div>
