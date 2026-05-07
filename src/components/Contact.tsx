@@ -59,7 +59,7 @@ export default function Contact() {
 
             <div className="contact__quick-links">
               <a
-                href="https://cal.com"
+                href="https://cal.com/hugo-chambert-lhv2ko/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact__quick-link"
