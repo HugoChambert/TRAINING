@@ -40,7 +40,7 @@ export default function Navbar() {
             Book a Session
           </a>
           <a
-            href="https://buy.stripe.com"
+            href="https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00"
             target="_blank"
             rel="noopener noreferrer"
             className="navbar__action-btn navbar__action-btn--red"
@@ -76,7 +76,7 @@ export default function Navbar() {
             Book a Session
           </a>
           <a
-            href="https://buy.stripe.com"
+            href="https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00"
             target="_blank"
             rel="noopener noreferrer"
             className="navbar__action-btn navbar__action-btn--red"
