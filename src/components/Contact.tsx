@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Calendar, CreditCard, ArrowRight } from 'lucide-react';
 import './Contact.css';
 
@@ -9,7 +8,7 @@ export default function Contact() {
         <div className="contact__left">
           <span className="section-label">Get In Touch</span>
           <h2 className="section-title">
-            LET'S<br /><span className="contact__title-red">TALK</span>
+            LET&apos;S<br /><span className="contact__title-red">TALK</span>
           </h2>
           <div className="red-line" />
           <p className="contact__body">
