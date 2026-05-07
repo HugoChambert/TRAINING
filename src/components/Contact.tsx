@@ -14,7 +14,6 @@ export default function Contact() {
           <p className="contact__body">
             Ready to commit? Have questions? Book a free consultation or jump straight into a plan.
           </p>
-
           <div className="contact__quick-links">
             
               href="https://cal.com/hugo-chambert-lhv2ko/30min"
@@ -31,7 +30,6 @@ export default function Contact() {
               </div>
               <span className="contact__quick-arrow">→</span>
             </a>
-
             
               href="https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00"
               target="_blank"
