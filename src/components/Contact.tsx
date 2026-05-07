@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Calendar, CreditCard, ArrowRight } from 'lucide-react';
 import './Contact.css';
 
@@ -12,8 +13,7 @@ export default function Contact() {
           </h2>
           <div className="red-line" />
           <p className="contact__body">
-            Ready to commit? Have questions? Book a free consultation or jump
-            straight into a plan.
+            Ready to commit? Have questions? Book a free consultation or jump straight into a plan.
           </p>
 
           <div className="contact__quick-links">
