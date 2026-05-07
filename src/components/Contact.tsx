@@ -75,7 +75,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://buy.stripe.com"
+                href="https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact__quick-link"
