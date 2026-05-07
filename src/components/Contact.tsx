@@ -1,4 +1,4 @@
-import { Calendar, CreditCard, ArrowRight } from 'lucide-react';
+import { Calendar, CreditCard } from 'lucide-react';
 import './Contact.css';
 
 export default function Contact() {
@@ -29,7 +29,7 @@ export default function Contact() {
                 <div className="contact__quick-title">Book a Free Call</div>
                 <div className="contact__quick-sub">30-min strategy session</div>
               </div>
-              <ArrowRight size={16} className="contact__quick-arrow" />
+              <span className="contact__quick-arrow">→</span>
             </a>
 
             
@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className="contact__quick-title">Buy a Plan</div>
                 <div className="contact__quick-sub">Start training immediately</div>
               </div>
-              <ArrowRight size={16} className="contact__quick-arrow" />
+              <span className="contact__quick-arrow">→</span>
             </a>
           </div>
         </div>
