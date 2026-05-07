@@ -31,7 +31,7 @@ export default function Navbar() {
 
         <div className="navbar__actions">
           <a
-            href="https://cal.com"
+            href="https://cal.com/hugo-chambert-lhv2ko/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="navbar__action-btn navbar__action-btn--outline"
@@ -66,7 +66,7 @@ export default function Navbar() {
         ))}
         <div className="navbar__mobile-actions">
           <a
-            href="https://cal.com"
+            href="https://cal.com/hugo-chambert-lhv2ko/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="navbar__action-btn navbar__action-btn--outline"
