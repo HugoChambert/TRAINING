@@ -7,6 +7,7 @@ const PROGRAMS = [
     tagline: 'Single Session',
     price: '70',
     period: '/session',
+    href: 'https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00',
     description: 'Try it out with a single 1-on-1 session. Great for those who want to experience coaching before committing to a plan.',
     features: [
       '60-min 1-on-1 session',
@@ -23,6 +24,7 @@ const PROGRAMS = [
     tagline: 'Monthly Coaching',
     price: '300',
     period: '/mo',
+    href: 'https://buy.stripe.com/bJe8wO1MGaN91n1c8B7bW02',
     description: 'Full-spectrum monthly coaching for serious results. Structured programming, daily accountability, and everything you need to transform.',
     features: [
       '4x weekly 1-on-1 sessions',
@@ -40,6 +42,7 @@ const PROGRAMS = [
     tagline: '1-Week Intensive',
     price: '150',
     period: '/week',
+    href: 'https://buy.stripe.com/00w3cu2QK7AXe9N1tX7bW01',
     description: 'A focused one-week block to build momentum, establish good habits, and get a real taste of structured training.',
     features: [
       '3x sessions over 7 days',
