@@ -27,7 +27,7 @@ const PROGRAMS = [
     href: 'https://buy.stripe.com/bJe8wO1MGaN91n1c8B7bW02',
     description: 'Full-spectrum monthly coaching for serious results. Structured programming, daily accountability, and everything you need to transform.',
     features: [
-      '4x weekly 1-on-1 sessions',
+      '3x weekly 1-on-1 sessions',
       'Periodized monthly program',
       'Weekly accountability check-in',
       'Full nutrition coaching',
