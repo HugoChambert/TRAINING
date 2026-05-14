@@ -15,12 +15,7 @@ export default function Contact() {
             Ready to commit? Have questions? Book a free consultation or jump straight into a plan.
           </p>
           <div className="contact__quick-links">
-            
-              href="https://cal.com/hugo-chambert-lhv2ko/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact__quick-link"
-            >
+            <div className="contact__quick-link" onClick={() => window.open('https://cal.com/hugo-chambert-lhv2ko/30min', '_blank')}>
               <div className="contact__quick-icon">
                 <Calendar size={18} />
               </div>
@@ -29,13 +24,8 @@ export default function Contact() {
                 <div className="contact__quick-sub">30-min strategy session</div>
               </div>
               <span className="contact__quick-arrow">→</span>
-            </a>
-            
-              href="https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact__quick-link"
-            >
+            </div>
+            <div className="contact__quick-link" onClick={() => window.open('https://buy.stripe.com/aFa4gygHAg7t2r57Sl7bW00', '_blank')}>
               <div className="contact__quick-icon contact__quick-icon--red">
                 <CreditCard size={18} />
               </div>
@@ -44,7 +34,7 @@ export default function Contact() {
                 <div className="contact__quick-sub">Start training immediately</div>
               </div>
               <span className="contact__quick-arrow">→</span>
-            </a>
+            </div>
           </div>
         </div>
       </div>
